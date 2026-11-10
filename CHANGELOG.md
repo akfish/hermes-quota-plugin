@@ -3,6 +3,16 @@
 Newest first. Each entry matches an annotated `vX.Y.Z` tag; the tag message is
 the release note.
 
+## 3.2.0, Alibaba Token Plan fork
+
+- Based on upstream v3.0.0, without the unrelated v3.1.0 UI redesign.
+- Add opt-in Alibaba Personal Token Plan collection through the official Bailian
+  CLI, with monthly and other provider-reported windows and reset timestamps.
+- Register the provider in cache, CLI, Desktop, and optional TUI views.
+- Bound subprocess time/output, sanitize its environment, and keep raw CLI
+  diagnostics and credentials out of cached display data.
+- Add offline parser, subprocess, discovery, and integration tests.
+
 ## 3.0.0 — 2026-10-23
 
 - Agent Monitor inside Desktop: live Hermes sessions, attention and context

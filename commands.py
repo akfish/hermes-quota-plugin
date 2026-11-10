@@ -63,6 +63,7 @@ _PROVIDER_NAMES = {
     "antigravity": "Antigravity",
     "minimax": "MiniMax",
     "ollama": "Ollama",
+    "alibaba-token-plan": "Alibaba Token Plan",
 }
 
 # Words a user actually types for a provider. Only used to resolve a
@@ -76,6 +77,8 @@ _PROVIDER_ALIASES = {
     "moonshot": "kimi",
     "xai": "grok",
     "opencode": "opencode-go",
+    "alibaba": "alibaba-token-plan",
+    "alibaba-token-plan-cn": "alibaba-token-plan",
 }
 
 # A row with no credential is a provider this machine has never configured: it

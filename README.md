@@ -1,5 +1,12 @@
 # Hermes Quota
 
+## Alibaba Token Plan fork
+
+This fork adds opt-in Alibaba Personal Token Plan quota through the official
+Bailian CLI. It is based on upstream v3.0.0, the installed baseline, and does
+not include upstream v3.1.0 UI changes. Version 3.2.0 identifies this fork.
+See [Alibaba setup and limitations](docs/alibaba-token-plan.md).
+
 ![Quota in Hermes Desktop](docs/images/quota-app.png)
 
 See provider quotas, reset times and account balances in Hermes Desktop and the CLI—without adding network calls to every UI render.
